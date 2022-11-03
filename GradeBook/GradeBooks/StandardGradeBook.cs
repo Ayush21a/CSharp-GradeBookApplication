@@ -1,10 +1,10 @@
 namespace GradeBook.GradeBooks
 {
-    public class StandardGradeBook : BaseGradeBook
+    public class RankedGradeBook : BaseGradeBook
     {
-        public StandardGradeBook(string name) : base(name)
+        public RankedGradeBook(string name) : base(name)
         {
-            Type = Enums.GradeBookType.Standard;
+            Type = Enums.GradeBookType.Ranked;
         }
     }
 }
